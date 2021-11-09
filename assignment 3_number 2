@@ -1,0 +1,31 @@
+#include <stdio.h>
+int main ()
+{
+int s;
+int l;
+
+printf("Input the smallest centimeter value: \n ");
+scanf("%d", &s); 
+
+printf("Input the largest centimeter value: \n");
+scanf("%d", &l);
+
+int cm = s;
+
+printf("Table of conversion:\n" "cm |  inch \n");
+
+while (cm <=l)
+{
+  int in = cm;
+  printf("%2d | %.4f \n", cm, in / 2.54 );
+
+  cm = cm + 10;
+  
+
+
+
+
+
+}
+
+}
